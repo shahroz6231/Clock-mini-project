@@ -1,0 +1,147 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.mainbox {
+    background: linear-gradient(to right, rgb(188 172 214), rgb(0 67 128));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h1{
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 3rem;
+    color: #130186;
+}
+
+.container {
+    border: 3px solid black;
+    font-size: 2.3rem;
+    height: 10rem;
+    background-color: rgba(255, 255, 255, 0.187);
+    border-radius: 100px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px;
+}
+
+span {
+    padding: 10px 30px;
+    /* color: rgb(57, 0, 57); */
+    color: #11017a;
+}
+
+#social{
+    /* border: 2px solid purple; */
+    font-size: 2rem;
+    margin: 10px;
+    padding: 5px 10px;
+    margin-bottom: 0px;
+    margin-top: auto;
+}
+
+.fa-brands{
+    /* color: rgb(0, 94, 255); */
+    color: black;
+}
+
+#footerr {
+    display: flex;
+    width: 100vi;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 2px;
+    margin-bottom: 0px;
+}
+@media (max-width: 1000px) {
+    h1{
+        font-size: 2rem;
+    }
+    .container{
+        font-size: 1.5rem;
+        height: 8rem;
+    }
+    #social{
+        font-size: 1rem;
+    }
+    #footerr{
+        font-size: 0.7rem;
+    }
+    
+}
+@media (max-width: 690px) {
+    h1{
+        font-size: 1.5rem;
+    }
+    .container{
+        font-size: 1rem;
+        height: 6rem;
+        border: 3px solid black;
+    }
+    #social{
+        font-size: 1rem;
+    }
+    #footerr{
+        font-size: 0.5rem;
+    }
+    
+}
+@media (max-width: 480px) {
+    h1{
+        font-size: 1.2rem;
+    }
+    .container{
+        font-size: 0.7rem;
+        height: 4rem;
+        border: 2px solid black;
+    }
+    #social{
+        font-size: 0.8rem;
+    }
+    #footerr{
+        font-size: 0.4rem;
+    }
+    
+}
+@media (max-width: 365px) {
+    h1{
+        font-size: 1.2rem;
+    }
+    .container{
+        font-size: 0.5rem;
+        height: 3rem;
+        border: 2px solid black;
+    }
+    #social{
+        font-size: 0.6rem;
+    }
+    #footerr{
+        font-size: 0.3rem;
+    }
+    
+}
+@media (max-width: 285px) {
+    h1{
+        font-size: 1rem;
+    }
+    .container{
+        font-size: 0.4rem;
+        height: 2.8rem;
+        border: 2px solid black;
+    }
+    #social{
+        font-size: 0.6rem;
+    }
+    #footerr{
+        font-size: 0.3rem;
+    }
+    
+}
